@@ -11,8 +11,8 @@ iex> GenServer.cast(pid, {:bet, 10})
 
 iex> GenServer.call(pid, :spin)
 %{
-  balance: 90,    # Saldo atualizado
-  reels: ["🍒", "🍒", "🍋"],  # Resultado das bobinas
+  balance: 90,
+  reels: ["🍒", "🍒", "🍋"],
   bet: 10
 }
 
